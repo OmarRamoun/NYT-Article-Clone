@@ -1,0 +1,22 @@
+:root {
+    --dark:         #2F303A;
+    --light-black:  #26262e;
+
+    --accent:       #1762A7;
+    --accent-hover: #2180d8;
+
+    --light:        #ffffff;
+    --light-hover:  #adadad;
+
+    --blue:         #3856B0;
+    --red:          #b038a0;
+    --purple:       #3a38b0;
+}
+
+* {
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+a {
+    cursor: pointer;
+}
