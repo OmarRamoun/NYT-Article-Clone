@@ -75,6 +75,7 @@ button {
 .social-media-bar {
   grid-column: articleInner;
   padding-top: 20px;  
+  margin-bottom: 40px;
 }
 
 .social-icons {
@@ -95,3 +96,10 @@ button {
   height: 17px;
   width: 17px;
 }
+
+.social-wa a * {
+  transform: translateY(-8%);
+}
+
+
+
