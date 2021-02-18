@@ -1,18 +1,3 @@
-:root {
-  --dark: #2f303a;
-  --light-black: #26262e;
-
-  --accent: #1762a7;
-  --accent-hover: #2180d8;
-
-  --light: #ffffff;
-  --light-hover: #adadad;
-
-  --blue: #3856b0;
-  --red: #b038a0;
-  --purple: #3a38b0;
-}
-
 a,
 button,
 .menu-icon,
@@ -35,7 +20,7 @@ button,
 
 .menu-icon:hover,
 .search-icon:hover {
-  background: rgb(235, 235, 235);  
+  background: rgb(235, 235, 235);
 }
 
 .logo {
