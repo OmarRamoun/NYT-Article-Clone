@@ -15,7 +15,7 @@ button,
 .chapter-icon {
   font-family: "Franklin";
   font-weight: bolder;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
 }
 
 .menu-icon:hover,
@@ -46,4 +46,10 @@ button {
 
 button:hover {
   background: #326891;
+}
+
+.article-title h1{
+  font-size: 1.8rem;
+  font-style: italic;
+  font-family: "Imperial";
 }

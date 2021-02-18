@@ -42,3 +42,31 @@ button {
   font-size: 0.7rem;
 
 }
+
+.main {
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 940px;
+}
+
+#the-article {
+  height: initial;
+
+  display: grid;
+
+  grid-template-columns:  
+      [articleOuter-start]            
+      20%
+      [articleInner-start]
+      60%
+      [articleInner-end]
+      20%
+      [articleOuter-end];
+
+  padding: 30px 0;
+
+}
+
+.article-title {
+  grid-column: articleInner;
+}
