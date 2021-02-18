@@ -52,4 +52,14 @@ button:hover {
   font-size: 1.8rem;
   font-style: italic;
   font-family: "Imperial";
+  color: #121212;
+}
+
+.social-media-bar {
+  border-top: 1px solid rgb(235, 235, 235);
+}
+
+.social-icons .social-round a {
+  background: #eeeeee;
+  border-radius: 50%;
 }

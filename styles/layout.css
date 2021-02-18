@@ -69,4 +69,29 @@ button {
 
 .article-title {
   grid-column: articleInner;
+  margin-bottom: 20px;
+}
+
+.social-media-bar {
+  grid-column: articleInner;
+  padding-top: 20px;  
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons .social-round a {
+  height: 18px;
+  width: 18px;
+  padding: 7px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.social-icons .social-round a * {
+  height: 17px;
+  width: 17px;
 }
