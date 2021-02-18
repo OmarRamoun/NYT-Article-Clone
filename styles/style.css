@@ -61,6 +61,21 @@ button:hover {
 
 .social-icons .social-round a {
   background: #eeeeee;
-  border: 1px solid #eeeeee;
+  border: 2px solid #eeeeee;
   border-radius: 50%;
+}
+
+.social-icons .social-round a:hover {
+  background: transparent;
+}
+
+.article-content-intro figcaption {
+  color: #666666;
+  font-family: "Imperial", serif;
+  font-size: 0.8rem;
+}
+
+.artcile-content-intro-photo-credit {
+  font-size: 0.7rem;
+  color: #666666e1;
 }

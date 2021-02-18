@@ -105,3 +105,16 @@ button {
   transform: translateY(2%);
   height: 30px;
 }
+
+.article-content {
+  grid-column: articleOuter;
+}
+
+.article-content-intro img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.article-content-intro {
+  margin-bottom: 45px;
+}
