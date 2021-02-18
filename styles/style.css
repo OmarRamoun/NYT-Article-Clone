@@ -17,11 +17,14 @@
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-a {
+a,
+button {
   cursor: pointer;
 }
 
 .page-header {
+  border-bottom: 1px solid rgb(202, 202, 202);
+  background: #ffffff;
 }
 
 .chapter-icon {
@@ -36,4 +39,13 @@ a {
 
 .transform-upper {
   text-transform: uppercase;
+}
+
+button {
+  font-family: "Franklin Bold", monospace;
+  font-weight: 800;
+  color: #ffffff;
+  background: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
 }
