@@ -10,6 +10,7 @@
   align-items: center;
   padding: 8px 20px;  
   height: 25px;
+  z-index: 1;
 }
 
 .navbar {
@@ -41,4 +42,236 @@ button {
   padding: 5px 10px 6px;
   font-size: 0.7rem;
 
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 940px;
+}
+
+#the-article {
+  height: initial;
+
+  display: grid;
+
+  grid-template-columns:  
+      [articleOuter-start]            
+      15%
+      [articleInner-start]
+      70%
+      [articleInner-end]
+      15%
+      [articleOuter-end];
+
+  padding: 30px 0;
+
+}
+
+.article-title {
+  grid-column: articleInner;
+  margin-bottom: 20px;
+}
+
+.social-media-bar {
+  grid-column: articleInner;
+  padding-top: 20px;  
+  margin-bottom: 40px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons .social-round a {
+  height: 18px;
+  width: 18px;
+  padding: 7px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.social-icons .social-round a * {
+  height: 17px;
+  width: 17px;
+}
+
+.social-wa a * {
+  transform: translateY(-8%);
+}
+
+.social-bookmark a *{
+  transform: translateY(2%);
+  height: 30px;
+}
+
+.article-content-intro {
+  grid-column: articleOuter;  
+}
+
+.article-content-intro img,
+.article-image img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.article-content-intro {
+  margin-bottom: 45px;
+}
+
+.article-credits,
+.article-paras,
+.subscribe-to-times,
+blockquote,
+.video-of-topic,
+.article-image,
+.bottom-of-article,
+.bottom-cta {
+  grid-column: articleInner;  
+}
+
+.article-credits .author {
+  margin-bottom: 12px;
+}
+
+.subscribe-to-times,
+.article-credits {
+  margin-bottom: 12px;
+}
+
+.subscribe-to-times {
+  text-align: center;
+  /* border-top: 1px solid #cccccc; */
+  /* border-bottom: 1px solid #cccccc; */
+}
+
+.subscribe-to-times::before {
+  display: block;
+  content: '';
+  width: 80px;
+  border-top: 1px solid #ccc;
+  margin: 20px auto;
+  margin-top: 30px;
+}
+
+.subscribe-to-times::after {
+  display: block;
+  content: '';
+  width: 80px;
+  border-top: 1px solid #ccc;
+  margin: 20px auto;
+  margin-bottom: 30px;
+}
+
+blockquote {
+  margin-bottom: 30px;
+}
+
+.theory-of-inflation {
+  grid-column: articleOuter;
+}
+
+.theory-of-inflation img {
+  width: 100%;
+  z-index: -1;
+}
+
+.diagram-figure {
+  position: relative;
+}
+
+.diagram-figure-section {
+  position: absolute;  
+}
+
+.diagram-figure-section:nth-child(2) {
+  top: 24.8%;
+  left: 0.04%;   
+  width: 228px;
+}
+
+.diagram-figure-section:nth-child(3) {
+  top: 24.8%;
+  left: 25.5%;   
+  width: 228px;
+}
+
+.diagram-figure-section:nth-child(4) {
+  top: 24.8%;
+  left: 51%;   
+  width: 228px;
+}
+
+.diagram-figure-section:nth-child(5) {
+  top: 24.8%;
+  left: 76.5%;   
+  width: 228px;
+}
+
+.diagram-figure-section:nth-child(6) {
+  top: 73.4%;
+  left: 0.04%;   
+  width: 228px;
+}
+
+.diagram-figure-section:nth-child(7) {
+  top: 73.4%;
+  left: 25.5%;   
+  width: 228px;
+}
+
+.diagram-figure-section:nth-child(8) {
+  top: 73.4%;
+  left: 51%;   
+  width: 228px;
+}
+
+.diagram-figure-section:nth-child(9) {
+  top: 73.4%;
+  left: 76.5%;   
+  width: 228px;
+}
+
+.diagram-figure-section-footer {
+  margin-bottom: 50px;
+}
+
+.diagram-figure-section-footer::before {
+  display: block;
+  content: '';
+  width: 80px;
+  border-top: 1px solid #111;
+  margin-bottom: 16px;
+}
+
+.video-of-topic * {
+  width: 100%;
+}
+
+.video-of-topic {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.article-image {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bottom-cta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.bottom-cta .social-media-bar {
+  padding: 0;
+  border: 0;
+  transform: translateX(8%);
+}
+
+.bottom-cta button {
+  width: 300px;
 }

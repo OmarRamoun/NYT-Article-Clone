@@ -15,7 +15,7 @@ button,
 .chapter-icon {
   font-family: "Franklin";
   font-weight: bolder;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
 }
 
 .menu-icon:hover,
@@ -46,4 +46,125 @@ button {
 
 button:hover {
   background: #326891;
+}
+
+.article-title h1{
+  font-size: 1.8rem;
+  font-style: italic;
+  font-family: "Imperial";
+  color: #121212;
+}
+
+.social-media-bar {
+  border-top: 1px solid rgb(235, 235, 235);
+}
+
+.social-icons .social-round a {
+  background: #eeeeee;
+  border: 2px solid #eeeeee;
+  border-radius: 50%;
+}
+
+.social-icons .social-round a:hover {
+  background: transparent;
+}
+
+.article-content-intro figcaption,
+.video-of-topic .video-caption,
+.article-image figcaption {
+  color: #666666;
+  font-family: "Imperial", serif;
+  font-size: 0.8rem;
+}
+
+.artcile-content-intro-photo-credit,
+.video-caption .video-credits,
+.article-image .credits,
+.bottom-of-article {
+  font-size: 0.7rem;
+  color: #666666e1;
+}
+
+.article-credits .author {
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+time {
+  font-family: "Imperial", Verdana, Tahoma;
+  font-size: 0.56rem;
+}
+
+.author-name {
+  text-decoration: underline;
+  text-decoration-color: #cccccc;
+}
+
+.author-name:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.article-paras {
+  font-size: 1.2rem;
+}
+
+.article-paras {
+  margin-bottom: 21px;
+}
+
+.subscribe-to-times {
+  font-family: "Franklin", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;  
+}
+
+.subscribe-to-times a {
+  color: #326891;
+}
+
+.article-paras a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.01rem;
+  color: #326891;
+}
+
+.article-paras a:hover {
+  text-decoration: none;
+}
+
+blockquote {
+  font-weight: 900;  
+}
+
+.theory-of-inflation .section-title {
+  font-weight: 800;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000;
+}
+
+.theory-of-inflation .section-body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #666;
+}
+
+.diagram-figure-section {
+  font-family: arial;
+  font-size: 12px;
+}
+
+.diagram-figure-section .diagram-figure-section-header {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.diagram-figure-section-footer {
+  font-family: arial;
+  font-size: 0.7rem;
+}
+
+.bottom-of-article a {
+  text-decoration: underline;
 }
