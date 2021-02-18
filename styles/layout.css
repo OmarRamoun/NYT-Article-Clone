@@ -1,3 +1,44 @@
 * {
-    outline: none;
+  outline: none;
+}
+
+.page-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;  
+  height: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+}
+
+.menu-icon,
+.search-icon {
+  height: 16px;
+  width: 16px;
+  display: flex;
+  padding: 7px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.chapter-icon {
+  font-size: 0.7rem;
+}
+
+.logo {
+  font-size: 1.2em;
+}
+
+button {
+  padding: 5px 10px 6px;
+  font-size: 0.7rem;
+
 }

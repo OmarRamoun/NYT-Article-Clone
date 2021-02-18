@@ -1,22 +1,49 @@
-:root {
-    --dark:         #2F303A;
-    --light-black:  #26262e;
-
-    --accent:       #1762A7;
-    --accent-hover: #2180d8;
-
-    --light:        #ffffff;
-    --light-hover:  #adadad;
-
-    --blue:         #3856B0;
-    --red:          #b038a0;
-    --purple:       #3a38b0;
+a,
+button,
+.menu-icon,
+.search-icon,
+.chapter-icon,
+.logo {
+  cursor: pointer;
 }
 
-* {
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+.page-header {
+  border-bottom: 1px solid rgb(202, 202, 202);
+  background: #ffffff;
 }
 
-a {
-    cursor: pointer;
+.chapter-icon {
+  font-family: "Franklin";
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.menu-icon:hover,
+.search-icon:hover {
+  background: rgb(235, 235, 235);
+}
+
+.logo {
+  font-family: "Chomsky";
+}
+
+.chapter-icon:hover {
+  text-decoration: underline;
+}
+
+.transform-upper {
+  text-transform: uppercase;
+}
+
+button {
+  font-family: "Franklin Bold", monospace;
+  font-weight: 800;
+  color: #ffffff;
+  background: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #326891;
 }
