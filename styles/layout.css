@@ -24,6 +24,9 @@
   height: 16px;
   width: 16px;
   display: flex;
+  padding: 7px;
+  border-radius: 3px;
+  margin-right: 10px;
 }
 
 .chapter-icon {
