@@ -101,5 +101,7 @@ button {
   transform: translateY(-8%);
 }
 
-
-
+.social-bookmark a *{
+  transform: translateY(2%);
+  height: 30px;
+}

@@ -61,5 +61,6 @@ button:hover {
 
 .social-icons .social-round a {
   background: #eeeeee;
+  border: 1px solid #eeeeee;
   border-radius: 50%;
 }
