@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+:root {
+  font: 100px/1.2 "Cheltenham", serif;
+}
+
+body,
+body * {
+  margin: unset;
+  box-sizing: unset;
+  padding: unset;
+  font-size: unset;
+  color: unset;
+  text-decoration: unset;
+}
+
+@font-face {
+  font-family: "Chomsky";
+  src: url("../assets/fonts/Chomsky.woff");
+}
+
+@font-face {
+  font-family: "Cheltenham";
+  src: url("//db.onlinewebfonts.com/t/33dbc7ec4adf68f9bfe08937b57e90da.eot");
+  src: url("//db.onlinewebfonts.com/t/33dbc7ec4adf68f9bfe08937b57e90da.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/33dbc7ec4adf68f9bfe08937b57e90da.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/33dbc7ec4adf68f9bfe08937b57e90da.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/33dbc7ec4adf68f9bfe08937b57e90da.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/33dbc7ec4adf68f9bfe08937b57e90da.svg#Cheltenham")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Cheltenham Italic";
+  src: url("//db.onlinewebfonts.com/t/415c1cffdc1ffdf955cdd328ad4a4c87.eot");
+  src: url("//db.onlinewebfonts.com/t/415c1cffdc1ffdf955cdd328ad4a4c87.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/415c1cffdc1ffdf955cdd328ad4a4c87.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/415c1cffdc1ffdf955cdd328ad4a4c87.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/415c1cffdc1ffdf955cdd328ad4a4c87.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/415c1cffdc1ffdf955cdd328ad4a4c87.svg#Cheltenham")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Franklin Bold";
+  src: url("//db.onlinewebfonts.com/t/4c1123f33c16171522dbc2946ff8e3a5.eot");
+  src: url("//db.onlinewebfonts.com/t/4c1123f33c16171522dbc2946ff8e3a5.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4c1123f33c16171522dbc2946ff8e3a5.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/4c1123f33c16171522dbc2946ff8e3a5.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/4c1123f33c16171522dbc2946ff8e3a5.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/4c1123f33c16171522dbc2946ff8e3a5.svg#Franklin")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Franklin";
+  src: url("//db.onlinewebfonts.com/t/c5e318af825ba7118f0e432ef4150911.eot");
+  src: url("//db.onlinewebfonts.com/t/c5e318af825ba7118f0e432ef4150911.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/c5e318af825ba7118f0e432ef4150911.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/c5e318af825ba7118f0e432ef4150911.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/c5e318af825ba7118f0e432ef4150911.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/c5e318af825ba7118f0e432ef4150911.svg#Franklin")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Imperial";
+  src: url("//db.onlinewebfonts.com/t/533a7df0e32fa8916aa70d392f0f48cf.eot");
+  src: url("//db.onlinewebfonts.com/t/533a7df0e32fa8916aa70d392f0f48cf.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/533a7df0e32fa8916aa70d392f0f48cf.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/533a7df0e32fa8916aa70d392f0f48cf.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/533a7df0e32fa8916aa70d392f0f48cf.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/533a7df0e32fa8916aa70d392f0f48cf.svg#Imperial")
+      format("svg");
+}
