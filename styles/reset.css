@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
-  font: 20px/1.2 "Cheltenham", serif;
+  font: 20px/1.4 "Cheltenham", serif;
+  color: #333;
 }
 
 body,
