@@ -168,3 +168,72 @@ blockquote {
 .bottom-of-article a {
   text-decoration: underline;
 }
+
+.picks-vertical .head-title {
+  border-bottom: 1px solid #cccccc;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.side-article a {
+  font-size: 13px;
+}
+
+.s-section {
+  border-top: 1px solid #222;  
+}
+
+.s-section-title {
+  font-size: 16px;
+  font-weight: 900;
+  color: #111;
+}
+
+.don-show {
+  font-size: 13px;
+  color: #666;
+}
+
+.card button {
+  color: #222;
+}
+
+.block p {
+  font-weight: normal;
+  font-family: arial;
+  color: rgb(51,51,51);
+}
+
+.card button a {
+  color: rgb(50, 104, 145);
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+.avatar .caption {
+  color: rgb(153, 153, 153);
+  font-size: 8px;
+}
+
+.info .title {
+  color: #121212;
+  font-size: 17px;
+}
+
+.info .since {
+  color: #999;
+  font-size: 12px;
+}
+
+.litem a:hover {
+  color: #666;
+}
+
+.litem {
+  border-top: 1px solid #ccc;
+}
+
+
+
+
+
