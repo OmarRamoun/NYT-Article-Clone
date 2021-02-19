@@ -9,7 +9,7 @@ button,
 
 .page-header {
   border-bottom: 1px solid rgb(202, 202, 202);
-  background: #ffffff;
+  background: #fff;
 }
 
 .chapter-icon {
@@ -38,7 +38,7 @@ button,
 button {
   font-family: "Franklin Bold", monospace;
   font-weight: 800;
-  color: #ffffff;
+  color: #fff;
   background: #567b95;
   border: 1px solid #326891;
   border-radius: 3px;
@@ -60,8 +60,8 @@ button:hover {
 }
 
 .social-icons .social-round a {
-  background: #eeeeee;
-  border: 2px solid #eeeeee;
+  background: #eee;
+  border: 2px solid #eee;
   border-radius: 50%;
 }
 
@@ -72,7 +72,7 @@ button:hover {
 .article-content-intro figcaption,
 .video-of-topic .video-caption,
 .article-image figcaption {
-  color: #666666;
+  color: #666;
   font-family: "Imperial", serif;
   font-size: 0.8rem;
 }
@@ -98,7 +98,7 @@ time {
 
 .author-name {
   text-decoration: underline;
-  text-decoration-color: #cccccc;
+  text-decoration-color: #ccc;
 }
 
 .author-name:hover {
@@ -171,7 +171,7 @@ blockquote {
 }
 
 .picks-vertical .head-title {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
   font-size: 0.8rem;
   font-weight: 900;
 }
