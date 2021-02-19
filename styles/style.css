@@ -1,0 +1,306 @@
+a,
+button,
+.menu-icon,
+.search-icon,
+.chapter-icon,
+.logo {
+  cursor: pointer;
+}
+
+.page-header {
+  border-bottom: 1px solid #cacaca;
+  background: #fff;
+}
+
+.chapter-icon {
+  font-family:
+    "Franklin",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
+    sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.6px;
+}
+
+.menu-icon:hover,
+.search-icon:hover {
+  background: #ebebeb;
+}
+
+.logo {
+  font-family:
+    "Chomsky",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
+    sans-serif;
+}
+
+.chapter-icon:hover {
+  text-decoration: underline;
+}
+
+.transform-upper {
+  text-transform: uppercase;
+}
+
+button {
+  font-family: "Franklin Bold", monospace;
+  font-weight: 800;
+  color: #fff;
+  background: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #326891;
+}
+
+.article-title h1 {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-family:
+    "Imperial",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
+    sans-serif;
+  color: #121212;
+}
+
+.footer-list {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+}
+
+.side-article a {
+  font-size: 13px;
+}
+
+.bottom-of-article a {
+  text-decoration: underline;
+}
+
+.subscribe-to-times a {
+  color: #326891;
+}
+
+.article-paras a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.01rem;
+  color: #326891;
+}
+
+.article-paras a:hover {
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footpage a:hover {
+  text-decoration: underline;
+}
+
+.litem a:hover {
+  color: #666;
+}
+
+.litem {
+  border-top: 1px solid #ccc;
+}
+
+.social-media-bar {
+  border-top: 1px solid #ebebeb;
+}
+
+.social-icons .social-round a {
+  background: #eee;
+  border: 2px solid #eee;
+  border-radius: 50%;
+}
+
+.social-icons .social-round a:hover {
+  background: transparent;
+}
+
+.article-content-intro figcaption,
+.video-of-topic .video-caption,
+.article-image figcaption {
+  color: #666;
+  font-family: "Imperial", serif;
+  font-size: 0.8rem;
+}
+
+.artcile-content-intro-photo-credit,
+.video-caption .video-credits,
+.article-image .credits,
+.bottom-of-article {
+  font-size: 0.7rem;
+  color: #666666e1;
+}
+
+.article-credits .author {
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+time {
+  font-family:
+    "Imperial",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
+    sans-serif;
+  font-size: 0.56rem;
+}
+
+.author-name {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+.author-name:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.article-paras {
+  font-size: 1.2rem;
+  margin-bottom: 21px;
+}
+
+.subscribe-to-times {
+  font-family:
+    "Franklin",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
+    sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+blockquote {
+  font-weight: 900;
+}
+
+.theory-of-inflation .section-title {
+  font-weight: 800;
+  font-family:
+    Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    "Times New Roman",
+    serif;
+  color: #000;
+}
+
+.theory-of-inflation .section-body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #666;
+}
+
+.diagram-figure-section {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.diagram-figure-section .diagram-figure-section-header {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.diagram-figure-section-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+.picks-vertical .head-title {
+  border-bottom: 1px solid #ccc;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.s-section {
+  border-top: 1px solid #222;
+}
+
+.s-section-title {
+  font-size: 16px;
+  font-weight: 900;
+  color: #111;
+}
+
+.don-show {
+  font-size: 13px;
+  color: #666;
+}
+
+.card > div {
+  color: #222;
+}
+
+.block p {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.avatar .caption {
+  color: #999;
+  font-size: 8px;
+}
+
+.info .title {
+  color: #121212;
+  font-size: 17px;
+}
+
+.info .since {
+  color: #999;
+  font-size: 12px;
+}
+
+.navlist {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+li {
+  list-style: none;
+}
+
+.navitem-title {
+  font-weight: 900;
+}
+
+.col-6 {
+  border-left: 1px solid #ccc;
+}
+
+.visual * {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.second-section {
+  font-size: 12px;
+}
+
+.goto {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  color: #567b95;
+  font-size: 11px;
+}
