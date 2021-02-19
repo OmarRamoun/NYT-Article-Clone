@@ -8,7 +8,7 @@ button,
 }
 
 .page-header {
-  border-bottom: 1px solid rgb(202, 202, 202);
+  border-bottom: 1px solid #cacaca;
   background: #fff;
 }
 
@@ -20,7 +20,7 @@ button,
 
 .menu-icon:hover,
 .search-icon:hover {
-  background: rgb(235, 235, 235);
+  background: #ebebeb;
 }
 
 .logo {
@@ -61,6 +61,36 @@ button:hover {
   color: #999;
 }
 
+.side-article a {
+  font-size: 13px;
+}
+
+.bottom-of-article a {
+  text-decoration: underline;
+}
+
+
+.subscribe-to-times a {
+  color: #326891;
+}
+
+
+.article-paras a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.01rem;
+  color: #326891;
+}
+
+.article-paras a:hover {
+  text-decoration: none;
+}
+
+.card button a {
+  color: #326891;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
 .footer a:hover,
 .footpage a:hover {
   text-decoration: underline;
@@ -74,36 +104,8 @@ button:hover {
   border-top: 1px solid #ccc;
 }
 
-.card button a {
-  color: rgb(50, 104, 145);
-  font-weight: 400;
-  font-size: 0.6rem;
-}
-
-.side-article a {
-  font-size: 13px;
-}
-
-.bottom-of-article a {
-  text-decoration: underline;
-}
-
-.article-paras a {
-  text-decoration: underline;
-  text-decoration-thickness: 0.01rem;
-  color: #326891;
-}
-
-.article-paras a:hover {
-  text-decoration: none;
-}
-
-.subscribe-to-times a {
-  color: #326891;
-}
-
 .social-media-bar {
-  border-top: 1px solid rgb(235, 235, 235);
+  border-top: 1px solid #ebebeb;
 }
 
 .social-icons .social-round a {
@@ -159,8 +161,12 @@ time {
 }
 
 .subscribe-to-times {
-  font-family: "Franklin", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
+  font-family:
+   "Franklin",
+   "Franklin Gothic Medium",
+   "Arial Narrow",
+   Arial,
+   sans-serif;
   font-size: 0.8rem;
   font-weight: 800;
 }
@@ -224,11 +230,11 @@ blockquote {
 .block p {
   font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(51, 51, 51);
+  color: #333;
 }
 
 .avatar .caption {
-  color: rgb(153, 153, 153);
+  color: #999;
   font-size: 8px;
 }
 
@@ -271,6 +277,6 @@ li {
 .goto {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: capitalize;
-  color: rgb(86, 123, 149);
+  color: #567b95;
   font-size: 11px;
 }
