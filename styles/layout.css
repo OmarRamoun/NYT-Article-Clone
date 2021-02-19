@@ -56,24 +56,24 @@ button {
   display: grid;
 
   grid-template-columns:
-    [articleOuter-start]
+    [articleouter-start]
     15%
-    [articleInner-start]
+    [articleinner-start]
     70%
-    [articleInner-end]
+    [articleinner-end]
     15%
-    [articleOuter-end];
+    [articleouter-end];
 
   padding: 30px 0;
 }
 
 .article-title {
-  grid-column: articleInner;
+  grid-column: articleinner;
   margin-bottom: 20px;
 }
 
 .social-media-bar {
-  grid-column: articleInner;
+  grid-column: articleinner;
   padding-top: 20px;
   margin-bottom: 40px;
 }
@@ -107,7 +107,7 @@ button {
 }
 
 .article-content-intro {
-  grid-column: articleOuter;
+  grid-column: articleouter;
 }
 
 .article-content-intro img,
@@ -128,7 +128,7 @@ blockquote,
 .article-image,
 .bottom-of-article,
 .bottom-cta {
-  grid-column: articleInner;
+  grid-column: articleinner;
 }
 
 .article-credits .author {
@@ -169,7 +169,7 @@ blockquote {
 }
 
 .theory-of-inflation {
-  grid-column: articleOuter;
+  grid-column: articleouter;
 }
 
 .theory-of-inflation img {
