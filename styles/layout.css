@@ -409,3 +409,83 @@ blockquote {
   margin: 5px 0;
   padding: 10px 0;
 }
+
+.footpage::before {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+    content: '';
+    display: block;
+    height: 1px;
+    margin-top: 0;    
+}
+
+.footpage {
+  width: 90%;
+  margin: 0px auto;  
+}
+
+.footpage .logo {
+  margin: 10px 0;
+}
+
+.footpage .navlist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlist li {
+  margin-top: 5px;
+}
+
+.col-6 svg {
+  width: 12px;
+}
+
+.col-6 {
+  padding-left: 20px;
+  width: 220px;
+}
+
+.visual {
+  margin-bottom: 20px;  
+}
+
+.navitem-title {
+  margin-bottom: 10px;
+}
+
+.visual a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.second-section {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-list {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;  
+}
