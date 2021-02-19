@@ -13,7 +13,11 @@ button,
 }
 
 .chapter-icon {
-  font-family: "Franklin", "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: 
+    "Franklin",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
     sans-serif;
   font-weight: bolder;
   letter-spacing: 0.6px;
@@ -25,7 +29,11 @@ button,
 }
 
 .logo {
-  font-family: "Chomsky", "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: 
+    "Chomsky",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
     sans-serif;
 }
 
@@ -53,7 +61,11 @@ button:hover {
 .article-title h1 {
   font-size: 1.8rem;
   font-style: italic;
-  font-family: "Imperial", "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: 
+    "Imperial",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
     sans-serif;
   color: #121212;
 }
@@ -142,7 +154,11 @@ button:hover {
 }
 
 time {
-  font-family: "Imperial", "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: 
+    "Imperial",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
     sans-serif;
   font-size: 0.56rem;
 }
@@ -163,7 +179,11 @@ time {
 }
 
 .subscribe-to-times {
-  font-family: "Franklin", "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: 
+    "Franklin",
+    "Franklin Gothic Medium",
+    "Arial Narrow",
+    Arial,
     sans-serif;
   font-size: 0.8rem;
   font-weight: 800;
@@ -175,7 +195,13 @@ blockquote {
 
 .theory-of-inflation .section-title {
   font-weight: 800;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: 
+    Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    "Times New Roman",
+    serif;
   color: #000;
 }
 
