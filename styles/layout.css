@@ -104,6 +104,11 @@ button {
   margin-bottom: 40px;
 }
 
+.card a {
+  position: absolute;  
+  bottom: 20px;
+}
+
 .social-icons {
   display: flex;
 }
@@ -339,9 +344,7 @@ blockquote {
 }
 
 .card > div {
-  /* align-items: start; */
   position: relative;
-  /* flex: 1; */
   max-width: 236px;
   background: #fff;
   border: 1px solid #ddd;
@@ -353,11 +356,6 @@ blockquote {
 
 .card div:nth-last-child() {
   margin-right: 0;
-}
-
-.card a {
-  position: absolute;  
-  bottom: 20px;
 }
 
 .card img {
