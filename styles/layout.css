@@ -78,6 +78,12 @@ button {
   margin-left: 10px;
 }
 
+.cards a {
+  color: #326891;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
 .visual {
   margin-bottom: 20px;
 }

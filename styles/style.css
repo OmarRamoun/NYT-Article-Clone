@@ -98,12 +98,6 @@ button:hover {
   text-decoration: none;
 }
 
-.card div a {
-  color: #326891;
-  font-weight: 400;
-  font-size: 0.6rem;
-}
-
 .footer a:hover,
 .footpage a:hover {
   text-decoration: underline;
