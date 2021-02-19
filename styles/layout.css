@@ -275,3 +275,139 @@ blockquote {
 .bottom-cta button {
   width: 300px;
 }
+
+.picks-vertical {
+  position: absolute;
+  float: right;
+  top: 390vh;
+  right: 100px;
+  width: 200px;
+  height: 400px;
+}
+
+.picks-vertical img {
+  height: 80px;
+  width: 80px;
+}
+
+.picks-vertical .head-title {
+  padding-bottom: 10px;
+  margin-bottom: 17px;
+}
+
+.side-article {
+  display: flex;
+  align-items: center;  
+  margin-bottom: 20px;
+}
+
+.side-article a {
+  margin-left: 10px;
+}
+
+.all-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.all-sections {
+  width: 69%;
+}
+
+.pop {
+  width: 28%;
+}
+
+.s-section {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.s-section-due {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-section-due,
+.s-section-title {
+  margin-bottom: 12px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card button {  
+  align-items: top;
+  position: relative;
+  flex: 1;
+  max-width: 236px;
+  background: #fff;
+  border: 1px solid #ddd;
+  /* width: 280px; */
+  height: 250px;
+  margin-bottom: 30px;
+  text-align: left;
+  padding: 15px;
+}
+
+.card button:nth-last-child() {
+  margin-right: 0;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  margin-top: -18px;  
+  margin-bottom: 10px;
+}
+
+.block p {
+  margin-bottom: 5px;
+}
+
+.card button a {
+  position: relative;
+  top: 19px;
+}
+
+.add-btn {
+  position: relative;
+  bottom: 172px;
+  left: 200px;
+}
+
+.avatar img {
+  /* height: 200px; */
+  width: 100%;
+  height: 100%
+}
+
+.avatar .caption {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.info .title {
+  text-align: left;  
+}
+
+.item {
+  width: 266px;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 14px;
+}
+
+.litem {
+  margin: 5px 0;
+  padding: 10px 0;
+}
