@@ -233,7 +233,46 @@ blockquote {
   border-top: 1px solid #ccc;
 }
 
+.navlist {
+  font-family: arial;
+  font-size: 0.7rem;
+}
 
+li {
+  list-style: none;
+}
 
+.navitem-title {
+  font-weight: 900;
+}
 
+.col-6 {
+  border-left: 1px solid #ccc;
+}
 
+.visual *{
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.second-section {
+  font-size: 12px;
+}
+
+.footer-list {
+  font-size: 11px;
+  font-family: arial;
+  color: #999;
+}
+
+.footer a:hover,
+.footpage a:hover {
+  text-decoration: underline;
+}
+
+.goto {
+  font-family: arial;
+  text-transform: capitalize;
+  color: rgb(86, 123, 149);
+  font-size: 11px;
+}
