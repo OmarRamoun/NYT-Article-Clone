@@ -74,9 +74,8 @@ button {
   margin-bottom: 40px;
 }
 
-.card button a {
-  position: relative;
-  top: 19px;
+.side-article a {
+  margin-left: 10px;
 }
 
 .visual {
@@ -88,6 +87,11 @@ button {
   margin-bottom: 10px;
 }
 
+.card button a {
+  position: relative;
+  top: 19px;
+}
+
 .social-bookmark a * {
   transform: translateY(2%);
   height: 30px;
@@ -97,10 +101,6 @@ button {
   grid-column: articleinner;
   padding-top: 20px;
   margin-bottom: 40px;
-}
-
-.side-article a {
-  margin-left: 10px;
 }
 
 .social-icons {
@@ -338,7 +338,7 @@ blockquote {
 }
 
 .card button {
-  align-items: top;
+  align-items: start;
   position: relative;
   flex: 1;
   max-width: 236px;
@@ -414,7 +414,7 @@ blockquote {
 
 .footpage {
   width: 90%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .footpage .logo {
