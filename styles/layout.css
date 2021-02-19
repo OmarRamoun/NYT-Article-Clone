@@ -490,3 +490,7 @@ blockquote {
   display: flex;
   justify-content: space-between;
 }
+
+iframe {
+  border: 0;
+}
