@@ -52,14 +52,7 @@ button {
 #the-article {
   height: initial;
   display: grid;
-  grid-template-columns:
-    [articleouter-start]
-    15%
-    [articleinner-start]
-    70%
-    [articleinner-end]
-    15%
-    [articleouter-end];
+  grid-template-columns: [articleouter-start] 15% [articleinner-start] 70% [articleinner-end] 15% [articleouter-end];
   padding: 30px 0;
 }
 
@@ -70,6 +63,10 @@ button {
 
 .video-of-topic * {
   width: 100%;
+}
+
+.social-wa a * {
+  transform: translateY(-8%);
 }
 
 .video-of-topic {
@@ -91,10 +88,19 @@ button {
   margin-bottom: 10px;
 }
 
+.social-bookmark a * {
+  transform: translateY(2%);
+  height: 30px;
+}
+
 .social-media-bar {
   grid-column: articleinner;
   padding-top: 20px;
   margin-bottom: 40px;
+}
+
+.side-article a {
+  margin-left: 10px;
 }
 
 .social-icons {
@@ -109,15 +115,6 @@ button {
   justify-content: center;
   align-items: center;
   margin-right: 20px;
-}
-
-.social-bookmark a * {
-  transform: translateY(2%);
-  height: 30px;
-}
-
-.social-wa a * {
-  transform: translateY(-8%);
 }
 
 .social-icons .social-round a * {
@@ -303,10 +300,6 @@ blockquote {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-}
-
-.side-article a {
-  margin-left: 10px;
 }
 
 .all-bottom {
