@@ -48,7 +48,7 @@ button:hover {
   background: #326891;
 }
 
-.article-title h1{
+.article-title h1 {
   font-size: 1.8rem;
   font-style: italic;
   font-family: "Imperial";
@@ -115,9 +115,10 @@ time {
 }
 
 .subscribe-to-times {
-  font-family: "Franklin", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   font-size: 0.8rem;
-  font-weight: 800;  
+  font-weight: 800;
 }
 
 .subscribe-to-times a {
@@ -135,17 +136,17 @@ time {
 }
 
 blockquote {
-  font-weight: 900;  
+  font-weight: 900;
 }
 
 .theory-of-inflation .section-title {
   font-weight: 800;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #000;
 }
 
 .theory-of-inflation .section-body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   color: #666;
 }
@@ -180,7 +181,7 @@ blockquote {
 }
 
 .s-section {
-  border-top: 1px solid #222;  
+  border-top: 1px solid #222;
 }
 
 .s-section-title {
@@ -201,7 +202,7 @@ blockquote {
 .block p {
   font-weight: normal;
   font-family: arial;
-  color: rgb(51,51,51);
+  color: rgb(51, 51, 51);
 }
 
 .card button a {
@@ -232,8 +233,3 @@ blockquote {
 .litem {
   border-top: 1px solid #ccc;
 }
-
-
-
-
-

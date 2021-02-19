@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 20px;  
+  padding: 8px 20px;
   height: 25px;
   z-index: 1;
 }
@@ -41,7 +41,6 @@
 button {
   padding: 5px 10px 6px;
   font-size: 0.7rem;
-
 }
 
 .main {
@@ -55,17 +54,16 @@ button {
 
   display: grid;
 
-  grid-template-columns:  
-      [articleOuter-start]            
-      15%
-      [articleInner-start]
-      70%
-      [articleInner-end]
-      15%
-      [articleOuter-end];
+  grid-template-columns:
+    [articleOuter-start]
+    15%
+    [articleInner-start]
+    70%
+    [articleInner-end]
+    15%
+    [articleOuter-end];
 
   padding: 30px 0;
-
 }
 
 .article-title {
@@ -75,7 +73,7 @@ button {
 
 .social-media-bar {
   grid-column: articleInner;
-  padding-top: 20px;  
+  padding-top: 20px;
   margin-bottom: 40px;
 }
 
@@ -86,7 +84,7 @@ button {
 .social-icons .social-round a {
   height: 18px;
   width: 18px;
-  padding: 7px;  
+  padding: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,13 +100,13 @@ button {
   transform: translateY(-8%);
 }
 
-.social-bookmark a *{
+.social-bookmark a * {
   transform: translateY(2%);
   height: 30px;
 }
 
 .article-content-intro {
-  grid-column: articleOuter;  
+  grid-column: articleOuter;
 }
 
 .article-content-intro img,
@@ -129,7 +127,7 @@ blockquote,
 .article-image,
 .bottom-of-article,
 .bottom-cta {
-  grid-column: articleInner;  
+  grid-column: articleInner;
 }
 
 .article-credits .author {
@@ -149,7 +147,7 @@ blockquote,
 
 .subscribe-to-times::before {
   display: block;
-  content: '';
+  content: "";
   width: 80px;
   border-top: 1px solid #ccc;
   margin: 20px auto;
@@ -158,7 +156,7 @@ blockquote,
 
 .subscribe-to-times::after {
   display: block;
-  content: '';
+  content: "";
   width: 80px;
   border-top: 1px solid #ccc;
   margin: 20px auto;
@@ -183,54 +181,54 @@ blockquote {
 }
 
 .diagram-figure-section {
-  position: absolute;  
+  position: absolute;
 }
 
 .diagram-figure-section:nth-child(2) {
   top: 24.8%;
-  left: 0.04%;   
+  left: 0.04%;
   width: 228px;
 }
 
 .diagram-figure-section:nth-child(3) {
   top: 24.8%;
-  left: 25.5%;   
+  left: 25.5%;
   width: 228px;
 }
 
 .diagram-figure-section:nth-child(4) {
   top: 24.8%;
-  left: 51%;   
+  left: 51%;
   width: 228px;
 }
 
 .diagram-figure-section:nth-child(5) {
   top: 24.8%;
-  left: 76.5%;   
+  left: 76.5%;
   width: 228px;
 }
 
 .diagram-figure-section:nth-child(6) {
   top: 73.4%;
-  left: 0.04%;   
+  left: 0.04%;
   width: 228px;
 }
 
 .diagram-figure-section:nth-child(7) {
   top: 73.4%;
-  left: 25.5%;   
+  left: 25.5%;
   width: 228px;
 }
 
 .diagram-figure-section:nth-child(8) {
   top: 73.4%;
-  left: 51%;   
+  left: 51%;
   width: 228px;
 }
 
 .diagram-figure-section:nth-child(9) {
   top: 73.4%;
-  left: 76.5%;   
+  left: 76.5%;
   width: 228px;
 }
 
@@ -240,7 +238,7 @@ blockquote {
 
 .diagram-figure-section-footer::before {
   display: block;
-  content: '';
+  content: "";
   width: 80px;
   border-top: 1px solid #111;
   margin-bottom: 16px;
@@ -297,7 +295,7 @@ blockquote {
 
 .side-article {
   display: flex;
-  align-items: center;  
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -340,7 +338,7 @@ blockquote {
   justify-content: space-between;
 }
 
-.card button {  
+.card button {
   align-items: top;
   position: relative;
   flex: 1;
@@ -361,7 +359,7 @@ blockquote {
 .card img {
   width: 80px;
   height: 80px;
-  margin-top: -18px;  
+  margin-top: -18px;
   margin-bottom: 10px;
 }
 
@@ -383,7 +381,7 @@ blockquote {
 .avatar img {
   /* height: 200px; */
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 .avatar .caption {
@@ -392,7 +390,7 @@ blockquote {
 }
 
 .info .title {
-  text-align: left;  
+  text-align: left;
 }
 
 .item {
