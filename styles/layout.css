@@ -1,3 +1,4 @@
+
 * {
   outline: none;
 }
@@ -411,18 +412,18 @@ blockquote {
 }
 
 .footpage::before {
-    background-color: #fff;
-    border-bottom: 1px solid #e2e2e2;
-    border-top: 2px solid #e2e2e2;
-    content: '';
-    display: block;
-    height: 1px;
-    margin-top: 0;    
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
 }
 
 .footpage {
   width: 90%;
-  margin: 0px auto;  
+  margin: 0px auto;
 }
 
 .footpage .logo {
@@ -448,7 +449,7 @@ blockquote {
 }
 
 .visual {
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .navitem-title {
@@ -487,5 +488,5 @@ blockquote {
 
 .flex {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
