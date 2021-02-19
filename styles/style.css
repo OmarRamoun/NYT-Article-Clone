@@ -13,7 +13,7 @@ button,
 }
 
 .chapter-icon {
-  font-family: "Franklin";
+  font-family: "Franklin", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bolder;
   letter-spacing: 0.6px;
 }
@@ -24,7 +24,7 @@ button,
 }
 
 .logo {
-  font-family: "Chomsky";
+  font-family: "Chomsky" , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .chapter-icon:hover {
@@ -51,8 +51,55 @@ button:hover {
 .article-title h1 {
   font-size: 1.8rem;
   font-style: italic;
-  font-family: "Imperial";
+  font-family: "Imperial", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #121212;
+}
+
+.footer-list {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+}
+
+.footer a:hover,
+.footpage a:hover {
+  text-decoration: underline;
+}
+
+.litem a:hover {
+  color: #666;
+}
+
+.litem {
+  border-top: 1px solid #ccc;
+}
+
+.card button a {
+  color: rgb(50, 104, 145);
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+.side-article a {
+  font-size: 13px;
+}
+
+.bottom-of-article a {
+  text-decoration: underline;
+}
+
+.article-paras a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.01rem;
+  color: #326891;
+}
+
+.article-paras a:hover {
+  text-decoration: none;
+}
+
+.subscribe-to-times a {
+  color: #326891;
 }
 
 .social-media-bar {
@@ -92,7 +139,7 @@ button:hover {
 }
 
 time {
-  font-family: "Imperial", Verdana, Tahoma;
+  font-family: "Imperial", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.56rem;
 }
 
@@ -108,9 +155,6 @@ time {
 
 .article-paras {
   font-size: 1.2rem;
-}
-
-.article-paras {
   margin-bottom: 21px;
 }
 
@@ -119,20 +163,6 @@ time {
     sans-serif;
   font-size: 0.8rem;
   font-weight: 800;
-}
-
-.subscribe-to-times a {
-  color: #326891;
-}
-
-.article-paras a {
-  text-decoration: underline;
-  text-decoration-thickness: 0.01rem;
-  color: #326891;
-}
-
-.article-paras a:hover {
-  text-decoration: none;
 }
 
 blockquote {
@@ -152,7 +182,7 @@ blockquote {
 }
 
 .diagram-figure-section {
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -162,22 +192,14 @@ blockquote {
 }
 
 .diagram-figure-section-footer {
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
-}
-
-.bottom-of-article a {
-  text-decoration: underline;
 }
 
 .picks-vertical .head-title {
   border-bottom: 1px solid #ccc;
   font-size: 0.8rem;
   font-weight: 900;
-}
-
-.side-article a {
-  font-size: 13px;
 }
 
 .s-section {
@@ -201,14 +223,8 @@ blockquote {
 
 .block p {
   font-weight: normal;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   color: rgb(51, 51, 51);
-}
-
-.card button a {
-  color: rgb(50, 104, 145);
-  font-weight: 400;
-  font-size: 0.6rem;
 }
 
 .avatar .caption {
@@ -226,16 +242,8 @@ blockquote {
   font-size: 12px;
 }
 
-.litem a:hover {
-  color: #666;
-}
-
-.litem {
-  border-top: 1px solid #ccc;
-}
-
 .navlist {
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
 }
 
@@ -260,19 +268,8 @@ li {
   font-size: 12px;
 }
 
-.footer-list {
-  font-size: 11px;
-  font-family: arial;
-  color: #999;
-}
-
-.footer a:hover,
-.footpage a:hover {
-  text-decoration: underline;
-}
-
 .goto {
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: capitalize;
   color: rgb(86, 123, 149);
   font-size: 11px;
