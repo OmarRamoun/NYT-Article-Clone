@@ -21,6 +21,7 @@
 
 ## Getting Started
 
+- Run this command in your OS terminal: `git clone git@github.com:MrRamoun/NYT-Article-Clone.git` to get a copy of the project.
 
 
 ## Authors
@@ -43,4 +44,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/MrRamoun/NYT-Article-Clone/blob/dev/LICENSE) licensed.
