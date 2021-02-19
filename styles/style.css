@@ -88,6 +88,12 @@ button:hover {
   color: #326891;
 }
 
+.card button a {
+  color: #326891;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
 .article-paras a {
   text-decoration: underline;
   text-decoration-thickness: 0.01rem;
@@ -96,12 +102,6 @@ button:hover {
 
 .article-paras a:hover {
   text-decoration: none;
-}
-
-.card button a {
-  color: #326891;
-  font-weight: 400;
-  font-size: 0.6rem;
 }
 
 .footer a:hover,
