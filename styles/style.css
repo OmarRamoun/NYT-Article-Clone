@@ -13,7 +13,8 @@ button,
 }
 
 .chapter-icon {
-  font-family: "Franklin", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   font-weight: bolder;
   letter-spacing: 0.6px;
 }
@@ -24,7 +25,8 @@ button,
 }
 
 .logo {
-  font-family: "Chomsky" , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Chomsky", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
 }
 
 .chapter-icon:hover {
@@ -51,7 +53,8 @@ button:hover {
 .article-title h1 {
   font-size: 1.8rem;
   font-style: italic;
-  font-family: "Imperial", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Imperial", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   color: #121212;
 }
 
@@ -69,11 +72,15 @@ button:hover {
   text-decoration: underline;
 }
 
-
 .subscribe-to-times a {
   color: #326891;
 }
 
+.card button a {
+  color: #326891;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
 
 .article-paras a {
   text-decoration: underline;
@@ -83,12 +90,6 @@ button:hover {
 
 .article-paras a:hover {
   text-decoration: none;
-}
-
-.card button a {
-  color: #326891;
-  font-weight: 400;
-  font-size: 0.6rem;
 }
 
 .footer a:hover,
@@ -141,7 +142,8 @@ button:hover {
 }
 
 time {
-  font-family: "Imperial", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Imperial", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   font-size: 0.56rem;
 }
 
@@ -161,12 +163,8 @@ time {
 }
 
 .subscribe-to-times {
-  font-family:
-   "Franklin",
-   "Franklin Gothic Medium",
-   "Arial Narrow",
-   Arial,
-   sans-serif;
+  font-family: "Franklin", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   font-size: 0.8rem;
   font-weight: 800;
 }
